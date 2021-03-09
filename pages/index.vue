@@ -6,6 +6,7 @@
 </template>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 .content {
   max-width: 500px;
   margin: auto;
@@ -19,7 +20,6 @@
   --colorShadeD: rgb(187, 232, 211);
   --colorShadeE: rgb(205, 255, 232);
 }
-
 * {
   box-sizing: border-box;
 }
@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 body {
-  font-family: 'OpenSans', sans-serif;
+  font-family: 'Amatic SC', 'OpenSans', sans-serif;
   font-size: 1rem;
   line-height: 2;
   display: flex;
