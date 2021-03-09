@@ -35,11 +35,6 @@ export default {
    */
   modules: [ "@nuxtjs/axios" ],
 
-  cloudinary: {
-    cloudName: process.env.CLOUDNAME,
-    /* all other options */
-  },
-
   env: {
     CLOUDNAME: process.env.CLOUDNAME,
     API_KEY: process.env.API_KEY,
