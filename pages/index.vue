@@ -1,6 +1,6 @@
 <template>
   <div  class="content countdown-timer">
-    <h1>{{ name }}</h1>
+    <p>{{ name }}</p>
     <button class="big-button" @click="generate_name">תן בי</button>
   </div>
 </template>
@@ -28,7 +28,7 @@
 }
 body {
   font-family: 'Amatic SC', 'OpenSans', sans-serif;
-  font-size: 1rem;
+  font-size: 7rem;
   line-height: 2;
   display: flex;
           align-items: center;
