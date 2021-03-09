@@ -12,7 +12,7 @@
     ],
     "build": {
         "env": {
-            "API_URL": "https://koshfir.vercel.app"
+            "API_URL": "https://kohmitz.vercel.app/"
         }
     },
     "routes": [
